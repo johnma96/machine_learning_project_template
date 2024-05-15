@@ -1,0 +1,10 @@
+name: cookiecutter_personal
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter=2.6.0
+  - python=3.11.3
+  - ipykernel=6.29.4
+  - pip-chill=1.0.3
+  - pytz=2024.1

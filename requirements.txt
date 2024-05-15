@@ -1,0 +1,25 @@
+# **** Short guide for creating and activating virtual environments, 
+#                 and installing libraries with venv ***
+#
+# --- Create virtual environment ---
+#
+# python -m venv .venv
+#
+# --- Activate virtual environment ---
+#
+# Unix orMac systems
+#     source venv/bin/activate
+# Windows system 
+#    - using git bash: source .venv/Scripts/activate
+#    - using command promt or anaconda terminal: .venv\Scripts\activate
+#
+# --- Install libraries ---
+#
+# python -m pip install --upgrade pip
+# pip config set global.trusted-host "pypi.org files.pythonhosted.org pypi.python.org"
+# pip install --no-cache-dir -r requirements.txt
+
+cookiecutter==2.6.0
+ipykernel==6.29.4
+pip-chill==1.0.3
+pytz==2024.1

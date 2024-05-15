@@ -1,0 +1,14 @@
+{
+    "project_title": "Machine Learning project",   
+    "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "This is a brief description of the model and the general objective for the setup.py file",
+    "project_long_description": "This is a description of the business logic of the model, its objective and some special conditions.",
+    "project_author_name": "Your name",
+    "project_author_email": "Your corporate email",
+    "project_packages": ["Minimal", "All"],
+    "python_version": "3.11.3",
+    "project_initial_version": "0.1.0",
+    "project_start_date": "Current date (YYYY-mm-dd)",
+    "project_remote_repository": "URL or remote path of this project",
+    "project_env_type": ["venv", "conda"]
+}
