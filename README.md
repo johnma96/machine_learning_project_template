@@ -9,12 +9,23 @@ Creator: John Mario Montoya Zapata
 |                           |         |            |
 
 ## Description
-Free project for the generation of a template of projects aimed at the development of machine learning and artificial intelligence models in general. Its objective is to minimize the load during the initial generation of the project and standardize the development of its code.
+Free project for the generation of a template of projects aimed at the development of machine learning and artificial intelligence models in general. Its objective is to minimize the load during the initial generation of the project and standardize the development of its code. You can consult the structure of the resulting repository [here](/{{%20cookiecutter.project_slug%20}}/README.md)
 
 ## Table of contents
-1. [Repository structure](#repository-structure)
-2. [Cloning this repository](#cloning-this-repository)
-3. [Setting up a virtual environment](#setting-up-a-virtual-environment)
+1. [Create a new project](#create-a-new-project)
+2. [Repository structure](#repository-structure)
+3. [Cloning this repository](#cloning-this-repository)
+4. [Setting up a virtual environment](#setting-up-a-virtual-environment)
+
+## Create a new project
+
+In the directory where you want to save your generated project.
+
+**Note:** If you want to copy the version to another branch change the branch name **after the checkout parameter**
+
+```bash
+cookiecutter https://github.com/johnma96/machine_learning_template.git --checkout main
+```
 
 ## Repository structure.
 
@@ -53,9 +64,13 @@ Other resources.
 ## Cloning this repository.
 
 - To clone this repository using SSH run the next command in your git console
-> `git clone git@github.com:johnma96/machine_learning_template.git`
+```bash
+git clone git@github.com:johnma96/machine_learning_template.git
+```
 - To clone this repository using HTTPS run the next command in your git console
-> `git clone https://github.com/johnma96/machine_learning_template.git`
+```bash
+git clone https://github.com/johnma96/machine_learning_template.git
+```
 
 For more details see [Clone a repository](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
 
