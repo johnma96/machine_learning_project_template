@@ -24,7 +24,7 @@ In the directory where you want to save your generated project.
 **Note:** If you want to copy the version to another branch change the branch name **after the checkout parameter**
 
 ```bash
-cookiecutter https://github.com/johnma96/machine_learning_template.git --checkout main
+cookiecutter https://github.com/johnma96/machine_learning_project_template.git --checkout main
 ```
 
 ## Repository structure.
