@@ -193,14 +193,18 @@ cython_debug/
 
 # Binary files for reports
 *.pbix
-reports/*.pptx
-reports/figures/*.png
+*.docx
+*.pptx
+*.png
+*.pdf
 !docs/model_architecture.png
 
 # Data files
 *.xlsx
+*.xlsb
 *.csv
 *.gsheet
+*.msg
 
 # Credentials files
 credentials/*.json
