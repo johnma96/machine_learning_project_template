@@ -23,8 +23,13 @@ In the directory where you want to save your generated project.
 
 **Note:** If you want to copy the version to another branch change the branch name **after the checkout parameter**
 
+- From github repository
 ```bash
 cookiecutter https://github.com/johnma96/machine_learning_template.git --checkout main
+```
+- From tuya's repository
+```bash
+cookiecutter //mdentyvrt01/Cuantificacion_de_riesgos/John_Mario_Montoya_Zapata/models/machine_learning_project_template --checkout main
 ```
 
 ## Repository structure.
@@ -70,6 +75,10 @@ git clone git@github.com:johnma96/machine_learning_template.git
 - To clone this repository using HTTPS run the next command in your git console
 ```bash
 git clone https://github.com/johnma96/machine_learning_template.git
+```
+- To clone this repository from Tuya's network units run the next command (using bash)
+```bash
+git clone //mdentyvrt01/Cuantificacion_de_riesgos/John_Mario_Montoya_Zapata/models/machine_learning_project_template
 ```
 
 For more details see [Clone a repository](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
