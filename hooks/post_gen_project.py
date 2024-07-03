@@ -13,7 +13,7 @@ subprocess.call("git add *".split(' '))
 subprocess.call(["git", "commit", "-m", '"Initial commit"'])
 print(f"{MESSAGE_COLOR}\nDone!\n")
 
-# Creating virtual environment
+# Creating virtual environment using venv
 if "{{ cookiecutter.project_env_type }}" == 'venv':
     print(f"{MESSAGE_COLOR}\nCreating virtual environment ...\n")
 
@@ -22,14 +22,14 @@ if "{{ cookiecutter.project_env_type }}" == 'venv':
 
     print(f"{MESSAGE_COLOR}\nInstalling libraries ...\n")
 
-    
-
     python_venv = os.getcwd() + "\\.venv\\Scripts\\python.exe"
     subprocess.call(f"{python_venv} -m pip install --upgrade pip".split(' '))
     subprocess.call([python_venv, '-m', "pip", "config", "set", "global.trusted-host", '"pypi.org files.pythonhosted.org pypi.python.org"'])
     subprocess.call(f"{python_venv} -m pip install --no-cache-dir -r requirements.txt".split(' '))
+    # subprocess.call(f"{python_venv} -m pip install .")
     print(f"{MESSAGE_COLOR}Done!\n{RESET_ALL}")
 else:
+    # Creating virtual environment usind conda
     print(f"{MESSAGE_COLOR}\nCreating virtual environment and intalling libraries ...\n")
     subprocess.call("conda env create --file environment.yml".split(' '))
     print(f"{MESSAGE_COLOR}Done!\n{RESET_ALL}")
