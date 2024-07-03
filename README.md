@@ -25,7 +25,7 @@ In the directory where you want to save your generated project.
 
 - From github repository
 ```bash
-cookiecutter https://github.com/johnma96/machine_learning_template.git --checkout main
+cookiecutter https://github.com/johnma96/machine_learning_project_template.git --checkout main
 ```
 - From tuya's repository
 ```bash
