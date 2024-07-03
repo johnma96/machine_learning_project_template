@@ -198,10 +198,10 @@ class ExecuteQuery(MakeConnection):
                     partition_values: list = [],
                     verbose: bool = True): 
         
-        original_params = locals()
-
         if '.sql' in insert_query:
             insert_query = read_file(insert_query)
+        
+        original_params = locals()
 
         if insert_query is None:
             original_params.pop('insert_query')
