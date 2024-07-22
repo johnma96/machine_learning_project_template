@@ -1,0 +1,4 @@
+impala_conn: {{ cookiecutter.project_impala_conn }}
+model:
+  model_name: your_prod_model
+  translate: list_with_translate

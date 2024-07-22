@@ -9,7 +9,7 @@ Creator: {{ cookiecutter.project_author_name }}
 |                           |         |            |
 
 ## Description
-{{ cookiecutter.project_long_description }}
+{{ cookiecutter.project_short_description }}
 
 ## Table of contents
 1. [Model for default prediction: Block diagram](#model-for-default-prediction-block-diagram)

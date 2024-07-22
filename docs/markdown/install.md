@@ -38,8 +38,8 @@ Please read the requirements.txt file (for virtual environments with venv librar
 
 ### Using venv
 ```bash
-python -m pip install --upgrade pip
 pip config set global.trusted-host "pypi.org files pythonhosted.org pypi.python.org"
+python -m pip install --upgrade pip
 pip install --no-cache-dir -r requirements.txt
 ```
 

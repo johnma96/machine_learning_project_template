@@ -88,11 +88,11 @@ For more details see [Clone a repository](https://docs.gitlab.com/ee/gitlab-basi
 
 In order to not create conflics between your libraries and the requirements libraries for this project, we highly recomend you to create a new virtual environment to install the requirements libraries in there.
 
-**Check out the installation guide [here](docs/markdown/install.md)**
+**Check out the installation guide [here](markdown/install.md)**
 
 For more details consult:
 - Click [here](https://docs.python.org/3/library/venv.html) to see how to create a virtual environment in python.
 - Click [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) if you are using conda.
 
 ### Installing and updating project libraries.
-The required libraries are listed in the file [`requirements.txt`](/requirements.txt) or [`environment.yml`](/environment.yml). **Please read [the installation guide](docs/markdown/install.md) information for greater detail.**
+The required libraries are listed in the file `requirements.txt` or `environment.yml`. **Please read [the installation guide](markdown/install.md) information for greater detail.**
